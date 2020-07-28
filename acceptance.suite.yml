@@ -1,0 +1,10 @@
+actor: AcceptanceTester
+modules:
+    enabled:
+        - WebDriver:
+            url: 'https://drewestate-dev.bigdropinc.net/'
+            browser: chrome # 'chrome' or 'firefox'
+            window_size: full # disabled in ChromeDriver
+        #- PhpBrowser:
+          #      url: 'https://drewestate-dev.bigdropinc.net/'
+        - \Helper\Acceptance

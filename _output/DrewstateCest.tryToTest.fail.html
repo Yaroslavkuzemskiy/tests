@@ -1,0 +1,596 @@
+<html lang="en-us" data-n-head="%7B%22lang%22:%7B%22ssr%22:%22en-us%22%7D%7D" class="wf-loading wf-roboto-n1-loading wf-roboto-n3-loading wf-roboto-n4-loading wf-roboto-n5-loading wf-roboto-n7-loading wf-opensans-n3-active wf-opensans-n4-active wf-opensans-n6-active wf-opensans-n7-active wf-opensans-i3-active wf-opensans-i4-active wf-opensans-i6-active overflow-y-hidden"><head>
+    <title>DrewEstate - DrewEstate</title><meta data-n-head="ssr" charset="utf-8" http-equiv="content-type" content="text/html"><meta data-n-head="ssr" name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0"><meta data-n-head="ssr" data-hid="description" name="description" content="Drewestate"><meta data-n-head="ssr" data-hid="mobile-web-app-capable" name="mobile-web-app-capable" content="yes"><meta data-n-head="ssr" data-hid="apple-mobile-web-app-title" name="apple-mobile-web-app-title" content="DrewEstate"><meta data-n-head="ssr" data-hid="author" name="author" content="bigdrop"><meta data-n-head="ssr" data-hid="theme-color" name="theme-color" content="#0a0"><meta data-n-head="ssr" data-hid="og:type" name="og:type" property="og:type" content="website"><meta data-n-head="ssr" data-hid="og:title" name="og:title" property="og:title" content="DrewEstate"><meta data-n-head="ssr" data-hid="og:site_name" name="og:site_name" property="og:site_name" content="DrewEstate"><meta data-n-head="ssr" data-hid="og:description" name="og:description" property="og:description" content="Drewestate"><link data-n-head="ssr" rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css"><link data-n-head="ssr" rel="manifest" href="/_nuxt/manifest.499b0a2e.json"><link data-n-head="ssr" rel="shortcut icon" href="/_nuxt/icons/icon_64.c2d60a.png"><link data-n-head="ssr" rel="apple-touch-icon" href="/_nuxt/icons/icon_512.c2d60a.png" sizes="512x512"><style data-n-head="vuetify" type="text/css" id="vuetify-theme-stylesheet" nonce="undefined">.v-application a { color: #852024; }
+.v-application .primary {
+  background-color: #852024 !important;
+  border-color: #852024 !important;
+}
+.v-application .primary--text {
+  color: #852024 !important;
+  caret-color: #852024 !important;
+}
+.v-application .primary.lighten-5 {
+  background-color: #ffa59c !important;
+  border-color: #ffa59c !important;
+}
+.v-application .primary--text.text--lighten-5 {
+  color: #ffa59c !important;
+  caret-color: #ffa59c !important;
+}
+.v-application .primary.lighten-4 {
+  background-color: #fc8a82 !important;
+  border-color: #fc8a82 !important;
+}
+.v-application .primary--text.text--lighten-4 {
+  color: #fc8a82 !important;
+  caret-color: #fc8a82 !important;
+}
+.v-application .primary.lighten-3 {
+  background-color: #de6f69 !important;
+  border-color: #de6f69 !important;
+}
+.v-application .primary--text.text--lighten-3 {
+  color: #de6f69 !important;
+  caret-color: #de6f69 !important;
+}
+.v-application .primary.lighten-2 {
+  background-color: #c05551 !important;
+  border-color: #c05551 !important;
+}
+.v-application .primary--text.text--lighten-2 {
+  color: #c05551 !important;
+  caret-color: #c05551 !important;
+}
+.v-application .primary.lighten-1 {
+  background-color: #a23b3a !important;
+  border-color: #a23b3a !important;
+}
+.v-application .primary--text.text--lighten-1 {
+  color: #a23b3a !important;
+  caret-color: #a23b3a !important;
+}
+.v-application .primary.darken-1 {
+  background-color: #680010 !important;
+  border-color: #680010 !important;
+}
+.v-application .primary--text.text--darken-1 {
+  color: #680010 !important;
+  caret-color: #680010 !important;
+}
+.v-application .primary.darken-2 {
+  background-color: #4d0000 !important;
+  border-color: #4d0000 !important;
+}
+.v-application .primary--text.text--darken-2 {
+  color: #4d0000 !important;
+  caret-color: #4d0000 !important;
+}
+.v-application .primary.darken-3 {
+  background-color: #3a0000 !important;
+  border-color: #3a0000 !important;
+}
+.v-application .primary--text.text--darken-3 {
+  color: #3a0000 !important;
+  caret-color: #3a0000 !important;
+}
+.v-application .primary.darken-4 {
+  background-color: #310000 !important;
+  border-color: #310000 !important;
+}
+.v-application .primary--text.text--darken-4 {
+  color: #310000 !important;
+  caret-color: #310000 !important;
+}
+.v-application .secondary {
+  background-color: #c8a564 !important;
+  border-color: #c8a564 !important;
+}
+.v-application .secondary--text {
+  color: #c8a564 !important;
+  caret-color: #c8a564 !important;
+}
+.v-application .secondary.lighten-5 {
+  background-color: #ffffeb !important;
+  border-color: #ffffeb !important;
+}
+.v-application .secondary--text.text--lighten-5 {
+  color: #ffffeb !important;
+  caret-color: #ffffeb !important;
+}
+.v-application .secondary.lighten-4 {
+  background-color: #ffffcf !important;
+  border-color: #ffffcf !important;
+}
+.v-application .secondary--text.text--lighten-4 {
+  color: #ffffcf !important;
+  caret-color: #ffffcf !important;
+}
+.v-application .secondary.lighten-3 {
+  background-color: #fff8b3 !important;
+  border-color: #fff8b3 !important;
+}
+.v-application .secondary--text.text--lighten-3 {
+  color: #fff8b3 !important;
+  caret-color: #fff8b3 !important;
+}
+.v-application .secondary.lighten-2 {
+  background-color: #ffdc98 !important;
+  border-color: #ffdc98 !important;
+}
+.v-application .secondary--text.text--lighten-2 {
+  color: #ffdc98 !important;
+  caret-color: #ffdc98 !important;
+}
+.v-application .secondary.lighten-1 {
+  background-color: #e5c07e !important;
+  border-color: #e5c07e !important;
+}
+.v-application .secondary--text.text--lighten-1 {
+  color: #e5c07e !important;
+  caret-color: #e5c07e !important;
+}
+.v-application .secondary.darken-1 {
+  background-color: #ac8b4b !important;
+  border-color: #ac8b4b !important;
+}
+.v-application .secondary--text.text--darken-1 {
+  color: #ac8b4b !important;
+  caret-color: #ac8b4b !important;
+}
+.v-application .secondary.darken-2 {
+  background-color: #907133 !important;
+  border-color: #907133 !important;
+}
+.v-application .secondary--text.text--darken-2 {
+  color: #907133 !important;
+  caret-color: #907133 !important;
+}
+.v-application .secondary.darken-3 {
+  background-color: #75591b !important;
+  border-color: #75591b !important;
+}
+.v-application .secondary--text.text--darken-3 {
+  color: #75591b !important;
+  caret-color: #75591b !important;
+}
+.v-application .secondary.darken-4 {
+  background-color: #5a4201 !important;
+  border-color: #5a4201 !important;
+}
+.v-application .secondary--text.text--darken-4 {
+  color: #5a4201 !important;
+  caret-color: #5a4201 !important;
+}
+.v-application .accent {
+  background-color: #f33e47 !important;
+  border-color: #f33e47 !important;
+}
+.v-application .accent--text {
+  color: #f33e47 !important;
+  caret-color: #f33e47 !important;
+}
+.v-application .accent.lighten-5 {
+  background-color: #ffd3c7 !important;
+  border-color: #ffd3c7 !important;
+}
+.v-application .accent--text.text--lighten-5 {
+  color: #ffd3c7 !important;
+  caret-color: #ffd3c7 !important;
+}
+.v-application .accent.lighten-4 {
+  background-color: #ffb5ac !important;
+  border-color: #ffb5ac !important;
+}
+.v-application .accent--text.text--lighten-4 {
+  color: #ffb5ac !important;
+  caret-color: #ffb5ac !important;
+}
+.v-application .accent.lighten-3 {
+  background-color: #ff9891 !important;
+  border-color: #ff9891 !important;
+}
+.v-application .accent--text.text--lighten-3 {
+  color: #ff9891 !important;
+  caret-color: #ff9891 !important;
+}
+.v-application .accent.lighten-2 {
+  background-color: #ff7b78 !important;
+  border-color: #ff7b78 !important;
+}
+.v-application .accent--text.text--lighten-2 {
+  color: #ff7b78 !important;
+  caret-color: #ff7b78 !important;
+}
+.v-application .accent.lighten-1 {
+  background-color: #ff5d5f !important;
+  border-color: #ff5d5f !important;
+}
+.v-application .accent--text.text--lighten-1 {
+  color: #ff5d5f !important;
+  caret-color: #ff5d5f !important;
+}
+.v-application .accent.darken-1 {
+  background-color: #d31530 !important;
+  border-color: #d31530 !important;
+}
+.v-application .accent--text.text--darken-1 {
+  color: #d31530 !important;
+  caret-color: #d31530 !important;
+}
+.v-application .accent.darken-2 {
+  background-color: #b3001b !important;
+  border-color: #b3001b !important;
+}
+.v-application .accent--text.text--darken-2 {
+  color: #b3001b !important;
+  caret-color: #b3001b !important;
+}
+.v-application .accent.darken-3 {
+  background-color: #930004 !important;
+  border-color: #930004 !important;
+}
+.v-application .accent--text.text--darken-3 {
+  color: #930004 !important;
+  caret-color: #930004 !important;
+}
+.v-application .accent.darken-4 {
+  background-color: #750000 !important;
+  border-color: #750000 !important;
+}
+.v-application .accent--text.text--darken-4 {
+  color: #750000 !important;
+  caret-color: #750000 !important;
+}
+.v-application .error {
+  background-color: #d6001a !important;
+  border-color: #d6001a !important;
+}
+.v-application .error--text {
+  color: #d6001a !important;
+  caret-color: #d6001a !important;
+}
+.v-application .error.lighten-5 {
+  background-color: #ffb194 !important;
+  border-color: #ffb194 !important;
+}
+.v-application .error--text.text--lighten-5 {
+  color: #ffb194 !important;
+  caret-color: #ffb194 !important;
+}
+.v-application .error.lighten-4 {
+  background-color: #ff937a !important;
+  border-color: #ff937a !important;
+}
+.v-application .error--text.text--lighten-4 {
+  color: #ff937a !important;
+  caret-color: #ff937a !important;
+}
+.v-application .error.lighten-3 {
+  background-color: #ff7661 !important;
+  border-color: #ff7661 !important;
+}
+.v-application .error--text.text--lighten-3 {
+  color: #ff7661 !important;
+  caret-color: #ff7661 !important;
+}
+.v-application .error.lighten-2 {
+  background-color: #ff5849 !important;
+  border-color: #ff5849 !important;
+}
+.v-application .error--text.text--lighten-2 {
+  color: #ff5849 !important;
+  caret-color: #ff5849 !important;
+}
+.v-application .error.lighten-1 {
+  background-color: #f73731 !important;
+  border-color: #f73731 !important;
+}
+.v-application .error--text.text--lighten-1 {
+  color: #f73731 !important;
+  caret-color: #f73731 !important;
+}
+.v-application .error.darken-1 {
+  background-color: #b50003 !important;
+  border-color: #b50003 !important;
+}
+.v-application .error--text.text--darken-1 {
+  color: #b50003 !important;
+  caret-color: #b50003 !important;
+}
+.v-application .error.darken-2 {
+  background-color: #960000 !important;
+  border-color: #960000 !important;
+}
+.v-application .error--text.text--darken-2 {
+  color: #960000 !important;
+  caret-color: #960000 !important;
+}
+.v-application .error.darken-3 {
+  background-color: #770000 !important;
+  border-color: #770000 !important;
+}
+.v-application .error--text.text--darken-3 {
+  color: #770000 !important;
+  caret-color: #770000 !important;
+}
+.v-application .error.darken-4 {
+  background-color: #5c0000 !important;
+  border-color: #5c0000 !important;
+}
+.v-application .error--text.text--darken-4 {
+  color: #5c0000 !important;
+  caret-color: #5c0000 !important;
+}
+.v-application .info {
+  background-color: #1877f2 !important;
+  border-color: #1877f2 !important;
+}
+.v-application .info--text {
+  color: #1877f2 !important;
+  caret-color: #1877f2 !important;
+}
+.v-application .info.lighten-5 {
+  background-color: #d3feff !important;
+  border-color: #d3feff !important;
+}
+.v-application .info--text.text--lighten-5 {
+  color: #d3feff !important;
+  caret-color: #d3feff !important;
+}
+.v-application .info.lighten-4 {
+  background-color: #b3e1ff !important;
+  border-color: #b3e1ff !important;
+}
+.v-application .info--text.text--lighten-4 {
+  color: #b3e1ff !important;
+  caret-color: #b3e1ff !important;
+}
+.v-application .info.lighten-3 {
+  background-color: #93c5ff !important;
+  border-color: #93c5ff !important;
+}
+.v-application .info--text.text--lighten-3 {
+  color: #93c5ff !important;
+  caret-color: #93c5ff !important;
+}
+.v-application .info.lighten-2 {
+  background-color: #72aaff !important;
+  border-color: #72aaff !important;
+}
+.v-application .info--text.text--lighten-2 {
+  color: #72aaff !important;
+  caret-color: #72aaff !important;
+}
+.v-application .info.lighten-1 {
+  background-color: #4d90ff !important;
+  border-color: #4d90ff !important;
+}
+.v-application .info--text.text--lighten-1 {
+  color: #4d90ff !important;
+  caret-color: #4d90ff !important;
+}
+.v-application .info.darken-1 {
+  background-color: #005fd5 !important;
+  border-color: #005fd5 !important;
+}
+.v-application .info--text.text--darken-1 {
+  color: #005fd5 !important;
+  caret-color: #005fd5 !important;
+}
+.v-application .info.darken-2 {
+  background-color: #0048b9 !important;
+  border-color: #0048b9 !important;
+}
+.v-application .info--text.text--darken-2 {
+  color: #0048b9 !important;
+  caret-color: #0048b9 !important;
+}
+.v-application .info.darken-3 {
+  background-color: #00339d !important;
+  border-color: #00339d !important;
+}
+.v-application .info--text.text--darken-3 {
+  color: #00339d !important;
+  caret-color: #00339d !important;
+}
+.v-application .info.darken-4 {
+  background-color: #002082 !important;
+  border-color: #002082 !important;
+}
+.v-application .info--text.text--darken-4 {
+  color: #002082 !important;
+  caret-color: #002082 !important;
+}
+.v-application .success {
+  background-color: #00d656 !important;
+  border-color: #00d656 !important;
+}
+.v-application .success--text {
+  color: #00d656 !important;
+  caret-color: #00d656 !important;
+}
+.v-application .success.lighten-5 {
+  background-color: #c9ffdf !important;
+  border-color: #c9ffdf !important;
+}
+.v-application .success--text.text--lighten-5 {
+  color: #c9ffdf !important;
+  caret-color: #c9ffdf !important;
+}
+.v-application .success.lighten-4 {
+  background-color: #aaffc3 !important;
+  border-color: #aaffc3 !important;
+}
+.v-application .success--text.text--lighten-4 {
+  color: #aaffc3 !important;
+  caret-color: #aaffc3 !important;
+}
+.v-application .success.lighten-3 {
+  background-color: #8affa7 !important;
+  border-color: #8affa7 !important;
+}
+.v-application .success--text.text--lighten-3 {
+  color: #8affa7 !important;
+  caret-color: #8affa7 !important;
+}
+.v-application .success.lighten-2 {
+  background-color: #69ff8b !important;
+  border-color: #69ff8b !important;
+}
+.v-application .success--text.text--lighten-2 {
+  color: #69ff8b !important;
+  caret-color: #69ff8b !important;
+}
+.v-application .success.lighten-1 {
+  background-color: #44f370 !important;
+  border-color: #44f370 !important;
+}
+.v-application .success--text.text--lighten-1 {
+  color: #44f370 !important;
+  caret-color: #44f370 !important;
+}
+.v-application .success.darken-1 {
+  background-color: #00b93c !important;
+  border-color: #00b93c !important;
+}
+.v-application .success--text.text--darken-1 {
+  color: #00b93c !important;
+  caret-color: #00b93c !important;
+}
+.v-application .success.darken-2 {
+  background-color: #009d1f !important;
+  border-color: #009d1f !important;
+}
+.v-application .success--text.text--darken-2 {
+  color: #009d1f !important;
+  caret-color: #009d1f !important;
+}
+.v-application .success.darken-3 {
+  background-color: #008200 !important;
+  border-color: #008200 !important;
+}
+.v-application .success--text.text--darken-3 {
+  color: #008200 !important;
+  caret-color: #008200 !important;
+}
+.v-application .success.darken-4 {
+  background-color: #006800 !important;
+  border-color: #006800 !important;
+}
+.v-application .success--text.text--darken-4 {
+  color: #006800 !important;
+  caret-color: #006800 !important;
+}
+.v-application .warning {
+  background-color: #f23400 !important;
+  border-color: #f23400 !important;
+}
+.v-application .warning--text {
+  color: #f23400 !important;
+  caret-color: #f23400 !important;
+}
+.v-application .warning.lighten-5 {
+  background-color: #ffcb8b !important;
+  border-color: #ffcb8b !important;
+}
+.v-application .warning--text.text--lighten-5 {
+  color: #ffcb8b !important;
+  caret-color: #ffcb8b !important;
+}
+.v-application .warning.lighten-4 {
+  background-color: #ffad70 !important;
+  border-color: #ffad70 !important;
+}
+.v-application .warning--text.text--lighten-4 {
+  color: #ffad70 !important;
+  caret-color: #ffad70 !important;
+}
+.v-application .warning.lighten-3 {
+  background-color: #ff9056 !important;
+  border-color: #ff9056 !important;
+}
+.v-application .warning--text.text--lighten-3 {
+  color: #ff9056 !important;
+  caret-color: #ff9056 !important;
+}
+.v-application .warning.lighten-2 {
+  background-color: #ff733c !important;
+  border-color: #ff733c !important;
+}
+.v-application .warning--text.text--lighten-2 {
+  color: #ff733c !important;
+  caret-color: #ff733c !important;
+}
+.v-application .warning.lighten-1 {
+  background-color: #ff5522 !important;
+  border-color: #ff5522 !important;
+}
+.v-application .warning--text.text--lighten-1 {
+  color: #ff5522 !important;
+  caret-color: #ff5522 !important;
+}
+.v-application .warning.darken-1 {
+  background-color: #d10000 !important;
+  border-color: #d10000 !important;
+}
+.v-application .warning--text.text--darken-1 {
+  color: #d10000 !important;
+  caret-color: #d10000 !important;
+}
+.v-application .warning.darken-2 {
+  background-color: #b00000 !important;
+  border-color: #b00000 !important;
+}
+.v-application .warning--text.text--darken-2 {
+  color: #b00000 !important;
+  caret-color: #b00000 !important;
+}
+.v-application .warning.darken-3 {
+  background-color: #910000 !important;
+  border-color: #910000 !important;
+}
+.v-application .warning--text.text--darken-3 {
+  color: #910000 !important;
+  caret-color: #910000 !important;
+}
+.v-application .warning.darken-4 {
+  background-color: #740000 !important;
+  border-color: #740000 !important;
+}
+.v-application .warning--text.text--darken-4 {
+  color: #740000 !important;
+  caret-color: #740000 !important;
+}</style><noscript data-n-head="ssr">This website requires JavaScript.</noscript><link rel="stylesheet" href="/_nuxt/css/a50caf056961dfbb00a4.css"><link rel="stylesheet" href="/_nuxt/css/9b54ce2248d4b8291c3a.css"><link rel="stylesheet" href="/_nuxt/css/720d4adb95add1e4fbb6.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,300i,400i,600i,700i&amp;display=swap%7CRoboto:100,300,400,500,700,900&amp;display=swap" media="all"><script charset="utf-8" src="/_nuxt/js/48f2a1d9b33540a07623.js"></script><style type="text/css">.loader[data-v-c2de8a26]{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;padding:30px 0}.loader__svg[data-v-c2de8a26]{-webkit-transform-origin:center;transform-origin:center;-webkit-animation:rotate-data-v-c2de8a26 2s linear infinite;animation:rotate-data-v-c2de8a26 2s linear infinite}.loader__circle[data-v-c2de8a26]{fill:none;stroke-width:3;stroke-dasharray:1,200;stroke-dashoffset:0;stroke-linecap:round;-webkit-animation:dash-data-v-c2de8a26 1.5s ease-in-out infinite;animation:dash-data-v-c2de8a26 1.5s ease-in-out infinite}@-webkit-keyframes rotate-data-v-c2de8a26{to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}}@keyframes rotate-data-v-c2de8a26{to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}}@-webkit-keyframes dash-data-v-c2de8a26{0%{stroke-dasharray:1,200;stroke-dashoffset:0}50%{stroke-dasharray:90,200;stroke-dashoffset:-35px}to{stroke-dashoffset:-125px}}@keyframes dash-data-v-c2de8a26{0%{stroke-dasharray:1,200;stroke-dashoffset:0}50%{stroke-dasharray:90,200;stroke-dashoffset:-35px}to{stroke-dashoffset:-125px}}</style><link rel="stylesheet" type="text/css" href="/_nuxt/css/02b792f0bbf273f607d6.css"><script charset="utf-8" src="/_nuxt/js/7550bec4f71743050ef7.js"></script><link rel="stylesheet" type="text/css" href="/_nuxt/css/1f3806c2e00809db5710.css"><script charset="utf-8" src="/_nuxt/js/b6aaf59c174696d59bfb.js"></script><link rel="stylesheet" type="text/css" href="/_nuxt/css/c0dd80d23a5a7e33f45f.css"><script charset="utf-8" src="/_nuxt/js/cde010cd0660637294f4.js"></script><link rel="stylesheet" type="text/css" href="/_nuxt/css/0b26a6fa48bdec940137.css"><script charset="utf-8" src="/_nuxt/js/39f0f8e4c79c38f256b5.js"></script><link rel="stylesheet" type="text/css" href="/_nuxt/css/9a793e1c9d4b91dddc19.css"><script charset="utf-8" src="/_nuxt/js/3bc9d935cbbc1ef79f27.js"></script></head>
+  <body>
+    <div id="__nuxt"><!----><div id="__layout"><div data-app="true" id="app" class="v-application v-application--is-ltr theme--light no-touch" style="opacity: 1; transition: opacity 0.5s ease 0s;"><div class="v-overlay v-overlay--active theme--dark" style="z-index: 201;"><div class="v-overlay__scrim" style="opacity: 0.46; background-color: rgb(33, 33, 33); border-color: rgb(33, 33, 33);"></div><div class="v-overlay__content"></div></div><div class="v-application--wrap"><header class="header v-sheet v-sheet--tile theme--light v-toolbar v-toolbar--flat v-app-bar v-app-bar--fixed transparent" style="height: 75px; margin-top: 0px; transform: translateY(0px); left: 0px; right: 0px;" data-booted="true"><div class="v-toolbar__content" style="height: 75px;"><a href="/" class="logo nuxt-link-exact-active nuxt-link-active"><img src="/_nuxt/f217221c008cf8698a5fcc4f833abf77.svg"></a> <div class="spacer"></div> <div class="nav px-2 px-md-4" style="display:none;"><div class="inner"><div class="notifications"><div class="item"><span class="v-badge v-badge--avatar v-badge--bordered theme--light"><div class="v-avatar" style="height:70px;min-width:70px;width:70px;"><div role="img" aria-label="Lorem ipsum dolor amet, consectetur adipiscing." class="v-responsive v-image"><div class="v-responsive__content"></div></div></div><span class="v-badge__wrapper"><span aria-atomic="true" aria-label="Badge" aria-live="polite" role="status" class="v-badge__badge primary" style="bottom:calc(100% - 4px);left:calc(100% - 4px);right:auto;top:auto;"></span></span></span> <div class="text-info"><p>Lorem ipsum dolor amet, consectetur adipiscing.</p> <time>Feb 13, 2020</time></div></div><div class="item"><span class="v-badge v-badge--avatar v-badge--bordered theme--light"><div class="v-avatar" style="height:70px;min-width:70px;width:70px;"><div role="img" aria-label="Lorem ipsum dolor amet, consectetur adipiscing." class="v-responsive v-image"><div class="v-image__image v-image__image--preload v-image__image--cover" style="background-image:;background-position:center center;"></div><div class="v-responsive__content"></div></div></div><span class="v-badge__wrapper"><span aria-atomic="true" aria-label="Badge" aria-live="polite" role="status" class="v-badge__badge primary" style="bottom:calc(100% - 4px);left:calc(100% - 4px);right:auto;top:auto;"></span></span></span> <div class="text-info"><p>Lorem ipsum dolor amet, consectetur adipiscing.</p> <time>Feb 13, 2020</time></div></div><div class="item"><span class="v-badge v-badge--avatar v-badge--bordered theme--light"><div class="v-avatar" style="height:70px;min-width:70px;width:70px;"><div role="img" aria-label="Lorem ipsum dolor amet, consectetur adipiscing." class="v-responsive v-image"><div class="v-image__image v-image__image--preload v-image__image--cover" style="background-image:;background-position:center center;"></div><div class="v-responsive__content"></div></div></div><span class="v-badge__wrapper"><span aria-atomic="true" aria-label="Badge" aria-live="polite" role="status" class="v-badge__badge primary" style="bottom:calc(100% - 4px);left:calc(100% - 4px);right:auto;top:auto;"></span></span></span> <div class="text-info"><p>Lorem ipsum dolor amet, consectetur adipiscing.</p> <time>Feb 13, 2020</time></div></div><div class="item"><span class="v-badge v-badge--avatar v-badge--bordered theme--light"><div class="v-avatar" style="height:70px;min-width:70px;width:70px;"><div role="img" aria-label="Lorem ipsum dolor amet, consectetur adipiscing." class="v-responsive v-image"><div class="v-image__image v-image__image--preload v-image__image--cover" style="background-image:;background-position:center center;"></div><div class="v-responsive__content"></div></div></div><span class="v-badge__wrapper"><span aria-atomic="true" aria-label="Badge" aria-live="polite" role="status" class="v-badge__badge primary" style="bottom:calc(100% - 4px);left:calc(100% - 4px);right:auto;top:auto;"></span></span></span> <div class="text-info"><p>Lorem ipsum dolor amet, consectetur adipiscing.</p> <time>Feb 13, 2020</time></div></div></div> <div class="text-center"><a href="/" class="nuxt-link-exact-active nuxt-link-active">View All Notifications</a></div></div></div> <div class="nav px-2 px-md-4" style="display:none;"><div class="inner"><a href="/blog" class="">News</a><a href="/events?sort=start_date_from" class="">Events</a><a href="/brands" class="">Brands</a><a href="/location/map-view" class="">Location</a></div></div> <div class="nav px-2 px-md-4" style="display:none;"><div class="inner"><a href="/profile/" class="">My Account</a><a href="/profile/my-log" class="">My Log</a><a href="/profile/my-humidor" class="">My Humidor</a><a href="/profile/my-wishlist" class="">My Wishlist</a><a href="/" class="nuxt-link-exact-active nuxt-link-active">Leaderboard</a><a href="/profile/my-friends/" class="">My Friends</a><a href="/" class="nuxt-link-exact-active nuxt-link-active">Trending Cigars</a><a href="/" class="nuxt-link-exact-active nuxt-link-active">Contact Support</a><a href="/profile/account-settings" class="">Account Settings</a></div></div> <button type="button" class="text-uppercase v-btn v-btn--contained v-btn--rounded theme--light v-size--x-small transparent"><span class="v-btn__content">
+        Log In
+      </span></button> <button type="button" class="ml-3 ml-md-4 text-uppercase v-btn v-btn--contained v-btn--rounded theme--light v-size--x-small transparent"><span class="v-btn__content">
+        Sign Up
+      </span></button></div></header> <main class="main"><!----> <section class="home-hero"><div class="layout hero-holder flex-column flex-md-row align-center justify-center"><div class="flex flex-grow-0 flex-shrink-0 d-none d-md-block"><div class="v-responsive v-image mx-auto ml-md-4" style="max-width:328px;"><div class="v-image__image v-image__image--preload v-image__image--contain" style="background-image:;background-position:center center;"></div><div class="v-responsive__content"></div></div></div> <div class="flex flex-grow-0 flex-shrink-0 text-center text-md-left"><h1 class="display-3">Discover and Share Your Favorite Cigars<mark>.</mark></h1> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum. Morbi condimentum, tellus sed faucibus facilisis, metus libero feugiat odio, in lobortis diam nec magna.</p> <button type="button" class="facebook mb-2 mb-md-3 v-btn v-btn--contained v-btn--rounded theme--light v-size--x-large"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate mr-3 fab fa-facebook-f theme--light"></i>
+            Continue with Facebook
+          </span></button> <button type="button" class="google mb-2 v-btn v-btn--contained v-btn--rounded theme--light v-size--x-large"><span class="v-btn__content">Continue with Google</span></button></div></div> <div class="arrow-down d-none d-md-block"><div class="curved-container"><span class="char0">S</span> <span class="char1">c</span> <span class="char2">r</span> <span class="char3">o</span> <span class="char4">l</span> <span class="char5">l</span> <span class="char6"></span> <span class="char7">d</span> <span class="char8">o</span> <span class="char9">w</span> <span class="char10">n</span></div> <button type="button" class="v-btn v-btn--contained v-btn--fab v-btn--round theme--light v-size--small primary"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate mdi mdi-chevron-down theme--light"></i></span></button></div></section> <section class="home-featured"><h1 class="display-3 text-center">Explore DrewEstate <mark>Features</mark></h1> <div class="layout featured-holder flex-column flex-md-row-reverse align-center justify-center"><div class="flex flex-grow-0 flex-shrink-0 mb-7 px-9"><div class="v-responsive v-image mx-auto mr-md-4" style="max-width:295px;"><div class="v-image__image v-image__image--preload v-image__image--contain" style="background-image:;background-position:center center;"></div><div class="v-responsive__content"></div></div></div> <div class="flex flex-grow-0 flex-shrink-0 px-md-4 text-center text-left"><div class="featured-accordion v-item-group theme--light v-expansion-panels v-expansion-panels--accordion v-expansion-panels--flat"><div aria-expanded="false" class="v-expansion-panel"><button type="button" class="v-expansion-panel-header"><h6 class="title">Smoke Cigars1</h6><div class="v-expansion-panel-header__icon"><div class="ico cigar" style="background-image:url(/_nuxt/cff35e92fa51971ea06ebb7d7bf5c0fa.svg);"></div></div></button> <!----></div><div aria-expanded="false" class="v-expansion-panel"><button type="button" class="v-expansion-panel-header"><h6 class="title">Earn Points</h6><div class="v-expansion-panel-header__icon"><div class="ico star" style="background-image:url(/_nuxt/f74fce547e77c5585c50b4f5c5aa104e.svg);"></div></div></button> <!----></div><div aria-expanded="false" class="v-expansion-panel"><button type="button" class="v-expansion-panel-header"><h6 class="title">Discover Retailers</h6><div class="v-expansion-panel-header__icon"><div class="ico house" style="background-image:url(/_nuxt/07e619960dc27b2e70473dee7ae1e28a.svg);"></div></div></button> <!----></div><div aria-expanded="false" class="v-expansion-panel"><button type="button" class="v-expansion-panel-header"><h6 class="title">Redeem Points</h6><div class="v-expansion-panel-header__icon"><div class="ico gift" style="background-image:url(/_nuxt/eb2901734b790aa6f8c6f3702cda598c.svg);"></div></div></button> <!----></div><div aria-expanded="false" class="v-expansion-panel"><button type="button" class="v-expansion-panel-header"><h6 class="title">Meet Drew Estate Fans</h6><div class="v-expansion-panel-header__icon"><div class="ico peoples" style="background-image:url(/_nuxt/b5a763e4d1e0e791aa9254c1cc110325.svg);"></div></div></button> <!----></div><div aria-expanded="false" class="v-expansion-panel"><button type="button" class="v-expansion-panel-header"><h6 class="title">RSVP to Events</h6><div class="v-expansion-panel-header__icon"><div class="ico check" style="background-image:url(/_nuxt/76d433d2b8372267c38822eb85caa330.svg);"></div></div></button> <!----></div></div></div></div></section></main> <footer class="v-footer footer text-center flex-column pt-5 pt-md-1 v-sheet v-sheet--tile theme--dark" data-booted="true"><div class="container container--fluid pb-md-0"><div class="row justify-space-between flex-md-nowrap"><div class="mb-4 mb-md-0 col-md-4 col-lg-auto col-12"><div class="links text-center text-md-left"><p class="text-md-left">Explore More About Us 1</p> <div class="layout holder ml-md-n3 ml-lg-n4 flex-column flex-wrap flex-md-row"><a href="/https://drewestate.com/" class="my-2 mx-md-3 mx-lg-4 font-weight-medium">
+              drewestate.com
+            </a><a href="/https://drewestate.com/" class="my-2 mx-md-3 mx-lg-4 font-weight-medium">
+              Cigar Safari
+            </a><a href="/https://drewestate.com/" class="my-2 mx-md-3 mx-lg-4 font-weight-medium">
+              Barn Smoker
+            </a></div></div></div> <div class="mb-4 mb-md-0 col-md-4 col-lg-auto col-12"><div class="links text-center text-md-left"><p class="text-md-left">Our Company</p> <div class="layout holder ml-md-n3 ml-lg-n4 flex-column flex-wrap flex-md-row"><a href="/" class="my-2 mx-md-3 mx-lg-4 font-weight-medium nuxt-link-exact-active nuxt-link-active">
+              Our Story
+            </a><a href="/brands" class="my-2 mx-md-3 mx-lg-4 font-weight-medium">
+              Our Brands
+            </a><a href="/events?sort=start_date_from" class="my-2 mx-md-3 mx-lg-4 font-weight-medium">
+              Events
+            </a><a href="/blog" class="my-2 mx-md-3 mx-lg-4 font-weight-medium">
+              Blog
+            </a><a href="/" class="my-2 mx-md-3 mx-lg-4 font-weight-medium nuxt-link-exact-active nuxt-link-active">
+              Careers
+            </a><a href="/" class="my-2 mx-md-3 mx-lg-4 font-weight-medium nuxt-link-exact-active nuxt-link-active">
+              Contact Us
+            </a></div></div></div> <div class="mb-n4 mb-md-0 col-md-4 col-lg-auto col-12"><p class="d-none d-md-block text-left">Meet Our Socials</p> <div class="text-md-left ml-md-n1" style="min-width:255px;"><a href="https://twitter.com/" class="mx-1 white--text ml-md-1 mr-md-2 v-btn v-btn--depressed v-btn--fab v-btn--round theme--dark v-size--default"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate fab fa-twitter theme--dark"></i></span></a><a href="https://www.linkedin.com/" class="mx-1 white--text ml-md-1 mr-md-2 v-btn v-btn--depressed v-btn--fab v-btn--round theme--dark v-size--default"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate fab fa-linkedin theme--dark"></i></span></a><a href="https://www.facebook.com/" class="mx-1 white--text ml-md-1 mr-md-2 v-btn v-btn--depressed v-btn--fab v-btn--round theme--dark v-size--default"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate fab fa-facebook theme--dark"></i></span></a><a href="https://www.instagram.com/" class="mx-1 white--text ml-md-1 mr-md-2 v-btn v-btn--depressed v-btn--fab v-btn--round theme--dark v-size--default"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate fab fa-instagram theme--dark"></i></span></a><a href="11" class="mx-1 white--text ml-md-1 mr-md-2 v-btn v-btn--depressed v-btn--fab v-btn--round theme--dark v-size--default"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate fab fa-youtube theme--dark"></i></span></a></div></div></div></div> <hr role="separator" aria-orientation="horizontal" class="d-none d-md-block v-divider theme--dark"> <div class="v-card__text pb-md-3 pt-md-4">
+    DrewEstate © 2020
+  </div></footer> <div role="alert" fixed="" class="v-alert v-sheet theme--dark info" style="display:none;"><div class="v-alert__wrapper"><i aria-hidden="true" class="v-icon notranslate v-alert__icon mdi mdi-information theme--dark"></i><div class="v-alert__content">
+    
+  </div><button type="button" aria-label="Close" class="v-alert__dismissible v-btn v-btn--flat v-btn--icon v-btn--round theme--dark v-size--small"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate mdi mdi-close-circle theme--dark"></i></span></button></div></div> <div class="v-overlay theme--dark" style="z-index:7;"><div class="v-overlay__scrim white" style="opacity:0;"></div></div> <div class="v-overlay v-overlay--active theme--dark" style="z-index:5;"><div class="v-overlay__scrim" style="opacity: 0.46; background-color: rgb(33, 33, 33); border-color: rgb(33, 33, 33);"></div><div class="v-overlay__content"><div role="dialog" class="v-dialog__container"></div></div></div></div><div role="document" tabindex="0" class="v-dialog__content v-dialog__content--active" style="z-index: 202;"><div class="v-dialog v-dialog--active v-dialog--persistent" style="max-width: 460px;"><div class="popup v-card v-sheet theme--light age-popup"><div class="v-card__title justify-center text-center pt-md-7 pb-0"><span class="display-1">You must be at least <mark> 21 years </mark> of age to enter this site</span></div> <div class="v-card__text px-5 px-md-10"><div class="row"><div class="text-center col"><button type="button" class="mb-3 v-btn v-btn--contained v-btn--rounded theme--light v-size--x-large secondary"><span class="v-btn__content">I am over 21</span></button> <button type="button" class="mb-3 v-btn v-btn--contained v-btn--rounded theme--light v-size--x-large secondary"><span class="v-btn__content">I am under 21</span></button></div> <div class="v-card__actions"><div class="text-center pt-2 col"><h3 class="mb-2">SURGEON GENERAL WARNING:</h3> <p>Cigars Are Not A Safe Alternate To Cigarettes.</p></div></div></div></div></div></div></div></div></div></div><script>window.__NUXT__=(function(a,b,c,d,e,f,g,h,i){return {layout:"default",data:[{}],error:g,state:{globalOverlay:c,loadingStore:c,alert:{is:c,text:h,type:"info"},popup:{name:h,show:c,func:void 0},users:{profilesList:[],meta:{},profile:{}},settings:{},relationships:{allFriends:[],meta:{},profile:{}},newsFeed:{newsFeed:[],meta:{}},myProfile:{},locations:{locations:[],location:{},meta:{},types:[],typesMeta:{}},likes:{likes:[],meta:{}},events:{events:[],event:{},eventsMeta:{}},comments:{comments:[],meta:{}},cms:{categories:[],categoriesMeta:{},post:{},posts:[],postsMeta:{},config:{config:{},configs:[{slug:"copyright",type:b,location:a,value:"DrewEstate © 2020"},{slug:"facebook",type:b,location:a,value:"https:\u002F\u002Fwww.facebook.com\u002F"},{slug:"instagram",type:b,location:a,value:"https:\u002F\u002Fwww.instagram.com\u002F"},{slug:"youtube",type:b,location:a,value:"11"},{slug:"twitter",type:b,location:a,value:"https:\u002F\u002Ftwitter.com\u002F"},{slug:"linkedin",type:b,location:a,value:"https:\u002F\u002Fwww.linkedin.com\u002F"},{slug:"about_us_menu_title",type:b,location:a,value:"Explore More About Us 1"},{slug:"about_us_menu_items",type:"array",location:a,value:[{title:"drewestate.com",link:e},{title:"Cigar Safari",link:e},{title:"Barn Smoker",link:e}]}],meta:{current_page:f,from:f,last_page:f,path:"http:\u002F\u002Fdrewestate-dev.bigdropinc.net\u002Fapi\u002Fv1\u002Fconfigs",per_page:20,to:i,total:i}},pages:{home:{title:"Discover and Share Your Favorite Cigars\u003Cmark\u003E.\u003C\u002Fmark\u003E",slug:"home",subtitle:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum. Morbi condimentum, tellus sed faucibus facilisis, metus libero feugiat odio, in lobortis diam nec magna.",second_title:"Explore DrewEstate \u003Cmark\u003EFeatures\u003C\u002Fmark\u003E",feature_items:[{title:"Smoke Cigars1",description:"Log Cigars and share your Experience with your good friends at Drew Estate!!!\n\nLog Cigars and share your Experience with your good friends at Drew Estate!!!",icon:"cigar"},{title:"Earn Points",description:d,icon:"star"},{title:"Discover Retailers",description:d,icon:"house"},{title:"Redeem Points",description:d,icon:"gift"},{title:"Meet Drew Estate Fans",description:d,icon:"peoples"},{title:"RSVP to Events",description:d,icon:"check"}]}}},cigars:{cigars:[],cigar:{},meta:{},humidor:{humidor:[],friendHumidor:[],meta:{},friendMeta:{}},log:{logged:[],singleLog:{}},wishlist:{wishlist:[],friendWishlist:[],meta:{},friendMeta:{}}},brands:{all:[],meta:{}},badges:{badges:[],meta:{}},auth:{user:g,loggedIn:c,strategy:"local"}},serverRendered:true}}("footer","text",false,"Log Cigars and share your Experience with your good friends at Drew Estate!","https:\u002F\u002Fdrewestate.com\u002F",1,null,"",8));</script><script src="/_nuxt/js/41bcaa4e02ffd0831e69.js" defer=""></script><script src="/_nuxt/js/c0b1c1b20bb90114a9aa.js" defer=""></script><script src="/_nuxt/js/37b63952e3b16399c2c6.js" defer=""></script><script src="/_nuxt/js/79fdf01adf6dd9b08abe.js" defer=""></script><script src="/_nuxt/js/6600ec2ce9e993f2973d.js" defer=""></script><script src="/_nuxt/js/b03bafcf2dd2618519ef.js" defer=""></script>
+  
+
+</body></html>
